@@ -48,32 +48,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="FlatButton">
-      <HintPath>C:\Program Files\Microsoft Visual Studio 10.0\JControls\FlatButton.dll</HintPath>
+    <Reference Include="FlatButton, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>GUI\Tools\FlatButton.dll</HintPath>
     </Reference>
-    <Reference Include="JDragControl">
-      <HintPath>C:\Program Files\Microsoft Visual Studio 10.0\JControls\JDragControl.dll</HintPath>
-    </Reference>
-    <Reference Include="JGradient Panel">
-      <HintPath>C:\Program Files\Microsoft Visual Studio 10.0\JControls\JGradient Panel.dll</HintPath>
-    </Reference>
-    <Reference Include="JImageButton">
-      <HintPath>C:\Program Files\Microsoft Visual Studio 10.0\JControls\JImageButton.dll</HintPath>
-    </Reference>
-    <Reference Include="JMaterialTextbox">
-      <HintPath>C:\Program Files\Microsoft Visual Studio 10.0\JControls\JMaterialTextbox.dll</HintPath>
-    </Reference>
-    <Reference Include="JMetroTextBox">
-      <HintPath>C:\Program Files\Microsoft Visual Studio 10.0\JControls\JMetroTextBox.dll</HintPath>
-    </Reference>
-    <Reference Include="JTextBox">
-      <HintPath>C:\Program Files\Microsoft Visual Studio 10.0\JControls\JTextBox.dll</HintPath>
-    </Reference>
-    <Reference Include="JTextBox2">
-      <HintPath>C:\Program Files\Microsoft Visual Studio 10.0\JControls\JTextBox2.dll</HintPath>
-    </Reference>
-    <Reference Include="JThinButton">
-      <HintPath>C:\Program Files\Microsoft Visual Studio 10.0\JControls\JThinButton.dll</HintPath>
+    <Reference Include="JTextBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>GUI\Tools\JTextBox.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>

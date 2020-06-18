@@ -48,13 +48,6 @@
             this.txt_ID = new System.Windows.Forms.TextBox();
             this.groupBox_Info = new System.Windows.Forms.GroupBox();
             this.grd_Info = new System.Windows.Forms.DataGridView();
-            this.label8 = new System.Windows.Forms.Label();
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dbBloodBankDataSet = new Blood_Bank.dbBloodBankDataSet();
-            this.dbBloodBankDataSet1 = new Blood_Bank.dbBloodBankDataSet1();
-            this.pROVINCETableAdapter1 = new Blood_Bank.dbBloodBankDataSet1TableAdapters.PROVINCETableAdapter();
-            this.pROVINCEBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.pROVINCEBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.USER_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GENDER = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,6 +55,13 @@
             this.CONTACT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BLOODTYPE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.STATUS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label8 = new System.Windows.Forms.Label();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.dbBloodBankDataSet = new Blood_Bank.dbBloodBankDataSet();
+            this.dbBloodBankDataSet1 = new Blood_Bank.dbBloodBankDataSet1();
+            this.pROVINCETableAdapter1 = new Blood_Bank.dbBloodBankDataSet1TableAdapters.PROVINCETableAdapter();
+            this.pROVINCEBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pROVINCEBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox_Control.SuspendLayout();
             this.groupBox_Info.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grd_Info)).BeginInit();
@@ -243,6 +243,7 @@
             // 
             // txt_ID
             // 
+            this.txt_ID.ForeColor = System.Drawing.Color.Red;
             this.txt_ID.Location = new System.Drawing.Point(120, 62);
             this.txt_ID.Name = "txt_ID";
             this.txt_ID.Size = new System.Drawing.Size(224, 20);
@@ -275,35 +276,6 @@
             this.grd_Info.TabIndex = 0;
             this.grd_Info.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_Info_CellClick);
             this.grd_Info.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_Info_CellContentClick);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("MS Reference Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(330, 20);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(520, 44);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "QUẢN LÝ NGÂN HÀNG MÁU";
-            // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.HeaderText = "Ảnh đại diện";
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            // 
-            // dbBloodBankDataSet
-            // 
-            this.dbBloodBankDataSet.DataSetName = "dbBloodBankDataSet";
-            this.dbBloodBankDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // dbBloodBankDataSet1
-            // 
-            this.dbBloodBankDataSet1.DataSetName = "dbBloodBankDataSet1";
-            this.dbBloodBankDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // pROVINCETableAdapter1
-            // 
-            this.pROVINCETableAdapter1.ClearBeforeFill = true;
             // 
             // USER_ID
             // 
@@ -352,6 +324,35 @@
             this.STATUS.HeaderText = "Trạng thái";
             this.STATUS.Name = "STATUS";
             this.STATUS.Width = 80;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("MS Reference Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(330, 20);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(520, 44);
+            this.label8.TabIndex = 2;
+            this.label8.Text = "QUẢN LÝ NGÂN HÀNG MÁU";
+            // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.HeaderText = "Ảnh đại diện";
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            // 
+            // dbBloodBankDataSet
+            // 
+            this.dbBloodBankDataSet.DataSetName = "dbBloodBankDataSet";
+            this.dbBloodBankDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dbBloodBankDataSet1
+            // 
+            this.dbBloodBankDataSet1.DataSetName = "dbBloodBankDataSet1";
+            this.dbBloodBankDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // pROVINCETableAdapter1
+            // 
+            this.pROVINCETableAdapter1.ClearBeforeFill = true;
             // 
             // ManageBloodForm
             // 

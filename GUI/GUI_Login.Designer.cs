@@ -1,4 +1,6 @@
-﻿namespace Blood_Bank
+﻿using FlatButton;
+using JTextBox;
+namespace Blood_Bank
 {
     partial class formLogin
     {

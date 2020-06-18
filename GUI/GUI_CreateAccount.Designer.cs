@@ -1,4 +1,6 @@
-﻿namespace Blood_Bank.GUI
+﻿using FlatButton;
+using JTextBox;
+namespace Blood_Bank.GUI
 {
     partial class GUI_CreateAccount
     {

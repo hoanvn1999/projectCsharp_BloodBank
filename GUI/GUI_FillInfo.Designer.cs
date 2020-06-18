@@ -1,4 +1,5 @@
-﻿namespace Blood_Bank.GUI
+﻿using FlatButton;
+namespace Blood_Bank.GUI
 {
     partial class GUI_FillInfo
     {
