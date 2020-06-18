@@ -29,13 +29,6 @@
         private void InitializeComponent()
         {
             this.grd_Info = new System.Windows.Forms.DataGridView();
-            this.USER_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GENDER = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PNAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CONTACT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BLOODTYPE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.STATUS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label8 = new System.Windows.Forms.Label();
             this.comboBox_Address = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -44,6 +37,13 @@
             this.comboBox_Status = new System.Windows.Forms.ComboBox();
             this.comboBox_BloodType = new System.Windows.Forms.ComboBox();
             this.btn_Search = new System.Windows.Forms.Button();
+            this.USER_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GENDER = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PNAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CONTACT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BLOODTYPE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.STATUS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grd_Info)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,54 +62,6 @@
             this.grd_Info.Name = "grd_Info";
             this.grd_Info.Size = new System.Drawing.Size(702, 417);
             this.grd_Info.TabIndex = 1;
-            // 
-            // USER_ID
-            // 
-            this.USER_ID.DataPropertyName = "USER_ID";
-            this.USER_ID.HeaderText = "Mã người dùng";
-            this.USER_ID.Name = "USER_ID";
-            this.USER_ID.Width = 80;
-            // 
-            // NAME
-            // 
-            this.NAME.DataPropertyName = "NAME";
-            this.NAME.HeaderText = "Tên người dùng";
-            this.NAME.Name = "NAME";
-            this.NAME.Width = 120;
-            // 
-            // GENDER
-            // 
-            this.GENDER.DataPropertyName = "GENDER";
-            this.GENDER.HeaderText = "Giới tính";
-            this.GENDER.Name = "GENDER";
-            this.GENDER.Width = 60;
-            // 
-            // PNAME
-            // 
-            this.PNAME.DataPropertyName = "PNAME";
-            this.PNAME.HeaderText = "Địa chỉ";
-            this.PNAME.Name = "PNAME";
-            this.PNAME.Width = 180;
-            // 
-            // CONTACT
-            // 
-            this.CONTACT.DataPropertyName = "CONTACT";
-            this.CONTACT.HeaderText = "Số điện thoại";
-            this.CONTACT.Name = "CONTACT";
-            // 
-            // BLOODTYPE
-            // 
-            this.BLOODTYPE.DataPropertyName = "BLOODTYPE";
-            this.BLOODTYPE.HeaderText = "Nhóm máu";
-            this.BLOODTYPE.Name = "BLOODTYPE";
-            this.BLOODTYPE.Width = 40;
-            // 
-            // STATUS
-            // 
-            this.STATUS.DataPropertyName = "STATUS";
-            this.STATUS.HeaderText = "Trạng thái";
-            this.STATUS.Name = "STATUS";
-            this.STATUS.Width = 90;
             // 
             // label8
             // 
@@ -196,6 +148,54 @@
             this.btn_Search.UseVisualStyleBackColor = true;
             this.btn_Search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
+            // USER_ID
+            // 
+            this.USER_ID.DataPropertyName = "USER_ID";
+            this.USER_ID.HeaderText = "Mã người dùng";
+            this.USER_ID.Name = "USER_ID";
+            this.USER_ID.Width = 120;
+            // 
+            // NAME
+            // 
+            this.NAME.DataPropertyName = "NAME";
+            this.NAME.HeaderText = "Tên người dùng";
+            this.NAME.Name = "NAME";
+            this.NAME.Width = 120;
+            // 
+            // GENDER
+            // 
+            this.GENDER.DataPropertyName = "GENDER";
+            this.GENDER.HeaderText = "Giới tính";
+            this.GENDER.Name = "GENDER";
+            this.GENDER.Width = 60;
+            // 
+            // PNAME
+            // 
+            this.PNAME.DataPropertyName = "PNAME";
+            this.PNAME.HeaderText = "Địa chỉ";
+            this.PNAME.Name = "PNAME";
+            this.PNAME.Width = 150;
+            // 
+            // CONTACT
+            // 
+            this.CONTACT.DataPropertyName = "CONTACT";
+            this.CONTACT.HeaderText = "Số điện thoại";
+            this.CONTACT.Name = "CONTACT";
+            // 
+            // BLOODTYPE
+            // 
+            this.BLOODTYPE.DataPropertyName = "BLOODTYPE";
+            this.BLOODTYPE.HeaderText = "Nhóm máu";
+            this.BLOODTYPE.Name = "BLOODTYPE";
+            this.BLOODTYPE.Width = 40;
+            // 
+            // STATUS
+            // 
+            this.STATUS.DataPropertyName = "STATUS";
+            this.STATUS.HeaderText = "Trạng thái";
+            this.STATUS.Name = "STATUS";
+            this.STATUS.Width = 80;
+            // 
             // GUI_FindPeople
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -223,13 +223,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView grd_Info;
-        private System.Windows.Forms.DataGridViewTextBoxColumn USER_ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NAME;
-        private System.Windows.Forms.DataGridViewTextBoxColumn GENDER;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PNAME;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CONTACT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BLOODTYPE;
-        private System.Windows.Forms.DataGridViewTextBoxColumn STATUS;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.ComboBox comboBox_Address;
         private System.Windows.Forms.Label label7;
@@ -238,5 +231,12 @@
         private System.Windows.Forms.ComboBox comboBox_Status;
         private System.Windows.Forms.ComboBox comboBox_BloodType;
         private System.Windows.Forms.Button btn_Search;
+        private System.Windows.Forms.DataGridViewTextBoxColumn USER_ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NAME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GENDER;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PNAME;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CONTACT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BLOODTYPE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn STATUS;
     }
 }

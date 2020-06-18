@@ -48,13 +48,6 @@
             this.txt_ID = new System.Windows.Forms.TextBox();
             this.groupBox_Info = new System.Windows.Forms.GroupBox();
             this.grd_Info = new System.Windows.Forms.DataGridView();
-            this.USER_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GENDER = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PNAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CONTACT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.BLOODTYPE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.STATUS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label8 = new System.Windows.Forms.Label();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dbBloodBankDataSet = new Blood_Bank.dbBloodBankDataSet();
@@ -62,6 +55,13 @@
             this.pROVINCETableAdapter1 = new Blood_Bank.dbBloodBankDataSet1TableAdapters.PROVINCETableAdapter();
             this.pROVINCEBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.pROVINCEBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.USER_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GENDER = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PNAME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CONTACT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.BLOODTYPE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.STATUS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox_Control.SuspendLayout();
             this.groupBox_Info.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grd_Info)).BeginInit();
@@ -276,54 +276,6 @@
             this.grd_Info.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_Info_CellClick);
             this.grd_Info.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_Info_CellContentClick);
             // 
-            // USER_ID
-            // 
-            this.USER_ID.DataPropertyName = "USER_ID";
-            this.USER_ID.HeaderText = "Mã người dùng";
-            this.USER_ID.Name = "USER_ID";
-            this.USER_ID.Width = 80;
-            // 
-            // NAME
-            // 
-            this.NAME.DataPropertyName = "NAME";
-            this.NAME.HeaderText = "Tên người dùng";
-            this.NAME.Name = "NAME";
-            this.NAME.Width = 120;
-            // 
-            // GENDER
-            // 
-            this.GENDER.DataPropertyName = "GENDER";
-            this.GENDER.HeaderText = "Giới tính";
-            this.GENDER.Name = "GENDER";
-            this.GENDER.Width = 60;
-            // 
-            // PNAME
-            // 
-            this.PNAME.DataPropertyName = "PNAME";
-            this.PNAME.HeaderText = "Địa chỉ";
-            this.PNAME.Name = "PNAME";
-            this.PNAME.Width = 180;
-            // 
-            // CONTACT
-            // 
-            this.CONTACT.DataPropertyName = "CONTACT";
-            this.CONTACT.HeaderText = "Số điện thoại";
-            this.CONTACT.Name = "CONTACT";
-            // 
-            // BLOODTYPE
-            // 
-            this.BLOODTYPE.DataPropertyName = "BLOODTYPE";
-            this.BLOODTYPE.HeaderText = "Nhóm máu";
-            this.BLOODTYPE.Name = "BLOODTYPE";
-            this.BLOODTYPE.Width = 40;
-            // 
-            // STATUS
-            // 
-            this.STATUS.DataPropertyName = "STATUS";
-            this.STATUS.HeaderText = "Trạng thái";
-            this.STATUS.Name = "STATUS";
-            this.STATUS.Width = 90;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -352,6 +304,54 @@
             // pROVINCETableAdapter1
             // 
             this.pROVINCETableAdapter1.ClearBeforeFill = true;
+            // 
+            // USER_ID
+            // 
+            this.USER_ID.DataPropertyName = "USER_ID";
+            this.USER_ID.HeaderText = "Mã người dùng";
+            this.USER_ID.Name = "USER_ID";
+            this.USER_ID.Width = 120;
+            // 
+            // NAME
+            // 
+            this.NAME.DataPropertyName = "NAME";
+            this.NAME.HeaderText = "Tên người dùng";
+            this.NAME.Name = "NAME";
+            this.NAME.Width = 120;
+            // 
+            // GENDER
+            // 
+            this.GENDER.DataPropertyName = "GENDER";
+            this.GENDER.HeaderText = "Giới tính";
+            this.GENDER.Name = "GENDER";
+            this.GENDER.Width = 60;
+            // 
+            // PNAME
+            // 
+            this.PNAME.DataPropertyName = "PNAME";
+            this.PNAME.HeaderText = "Địa chỉ";
+            this.PNAME.Name = "PNAME";
+            this.PNAME.Width = 150;
+            // 
+            // CONTACT
+            // 
+            this.CONTACT.DataPropertyName = "CONTACT";
+            this.CONTACT.HeaderText = "Số điện thoại";
+            this.CONTACT.Name = "CONTACT";
+            // 
+            // BLOODTYPE
+            // 
+            this.BLOODTYPE.DataPropertyName = "BLOODTYPE";
+            this.BLOODTYPE.HeaderText = "Nhóm máu";
+            this.BLOODTYPE.Name = "BLOODTYPE";
+            this.BLOODTYPE.Width = 40;
+            // 
+            // STATUS
+            // 
+            this.STATUS.DataPropertyName = "STATUS";
+            this.STATUS.HeaderText = "Trạng thái";
+            this.STATUS.Name = "STATUS";
+            this.STATUS.Width = 80;
             // 
             // ManageBloodForm
             // 

@@ -13,7 +13,7 @@ namespace Blood_Bank.App_Code
         SqlConnection con;
         public DataConnection()
         {
-            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Learning\learningC#\Blood Bank\Connection\dbBloodBank.mdf;Integrated Security=True");
+            con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Learning\learningC#\BloodBank\Connection\dbBloodBank.mdf;Integrated Security=True");
         }
         private void openConnection()
         {
